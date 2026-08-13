@@ -1,0 +1,27 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    overflow: hidden;
+    color: white;
+}
+
+.border {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(105, 0, 56);
+}
+
+.progBar {
+    height: 100%;
+    width: 0%;
+    background-color: transparent;
+    display: flex;
+    justify-content: right;
+}
+
+.progBar img {
+    width: auto;
+    height: 100%;
+    transform: rotate(90deg);
+}

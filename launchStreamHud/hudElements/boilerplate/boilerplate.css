@@ -1,0 +1,12 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    overflow: hidden;
+    color: white;
+}
+
+p {
+    text-align: center;
+    font-size: 500%;
+}

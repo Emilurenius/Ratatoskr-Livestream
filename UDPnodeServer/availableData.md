@@ -1,0 +1,8 @@
+- Altitude
+- pressure
+- acceleration
+- rotation
+- magnetometer
+- temperature
+- radiation
+- heartbeat?
