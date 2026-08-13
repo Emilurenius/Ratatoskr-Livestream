@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<svg width="400" height="400">
+  <circle cx="200" cy="200" r="200" fill="#b3b3b3" />
+  <circle cx="200" cy="200" r="190" fill="#8f8f8f" />
+  <circle cx="200" cy="200" r="175" fill="black" />
+  <circle cx="200" cy="200" r="10" fill="white" />
+  <rect x="200" y="198" width="160" height="3" fill="white" transform="rotate(270, 200, 200)" id="needle" />
+</svg>
+
+<script>
+const needle = document.getElementById("needle")
+let angle = 140
+const animate = () => {
+  angle += 1
+  if (angle > 400) {
+    angle = 140
+  }
+  needle.setAttribute("transform", `rotate(${angle}, 200, 200)`)
+  requestAnimationFrame(animate)
+}
+animate()
+</script>
+
+</body>
+</html>
