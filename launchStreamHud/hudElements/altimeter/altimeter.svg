@@ -3,8 +3,8 @@
 
 <svg
    width="1000"
-   height="1000"
-   viewBox="0 0 264.58333 264.58333"
+   height="250"
+   viewBox="0 0 1000 250"
    version="1.1"
    id="svg1"
    inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
@@ -27,335 +27,37 @@
      showgrid="true"
      showguides="true"
      inkscape:zoom="1.1269988"
-     inkscape:cx="493.78935"
-     inkscape:cy="137.53342"
+     inkscape:cx="413.04392"
+     inkscape:cy="201.41991"
      inkscape:window-width="1920"
      inkscape:window-height="1011"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="g234" />
   <defs
      id="defs1">
     <rect
-       x="454.74761"
+       x="454.74762"
        y="272.40491"
        width="0.88731241"
        height="15.527967"
        id="rect396" />
-    <filter
-       x="-0.045354329"
-       width="1.0907087"
-       y="-0.18141732"
-       height="1.3628346"
-       inkscape:menu="Non-Realistic 3D Shaders"
-       inkscape:menu-tooltip="Satiny metal surface effect"
-       inkscape:label="Brushed Metal"
-       style="color-interpolation-filters:sRGB"
-       id="filter460">
-      <feGaussianBlur
-         in="SourceGraphic"
-         stdDeviation="5"
-         result="result8"
-         id="feGaussianBlur455" />
-      <feComposite
-         in2="result8"
-         operator="xor"
-         result="result19"
-         id="feComposite455" />
-      <feComposite
-         k2="1"
-         operator="arithmetic"
-         result="result17"
-         in2="result8"
-         id="feComposite456" />
-      <feOffset
-         result="result18"
-         in="result8"
-         id="feOffset456" />
-      <feDisplacementMap
-         in2="result17"
-         in="result18"
-         xChannelSelector="A"
-         yChannelSelector="A"
-         scale="100"
-         result="result4"
-         id="feDisplacementMap456" />
-      <feComposite
-         in2="result4"
-         result="result2"
-         operator="arithmetic"
-         in="SourceGraphic"
-         k1="0"
-         k3="1"
-         id="feComposite457" />
-      <feComposite
-         in2="SourceGraphic"
-         result="fbSourceGraphic"
-         in="result2"
-         operator="in"
-         id="feComposite458" />
-      <feComposite
-         in2="SourceGraphic"
-         operator="in"
-         result="result15"
-         id="feComposite459" />
-      <feComposite
-         result="result16"
-         in2="SourceGraphic"
-         operator="in"
-         in="result15"
-         id="feComposite460" />
-    </filter>
-    <filter
-       inkscape:label="Metallized Paint"
-       inkscape:menu="Materials"
-       inkscape:menu-tooltip="Metallized effect with a soft lighting, slightly translucent at the edges"
-       style="color-interpolation-filters:sRGB;"
-       id="filter472"
-       x="-0.10431496"
-       y="-0.41725983"
-       width="1.2086299"
-       height="1.8345197">
-      <feGaussianBlur
-         stdDeviation="1"
-         result="result1"
-         id="feGaussianBlur467" />
-      <feComposite
-         in="result1"
-         in2="result1"
-         result="result4"
-         operator="in"
-         id="feComposite467" />
-      <feBlend
-         in="result1"
-         mode="screen"
-         result="result5"
-         in2="result4"
-         id="feBlend467" />
-      <feGaussianBlur
-         stdDeviation="8"
-         result="result6"
-         in="result5"
-         id="feGaussianBlur468" />
-      <feComposite
-         operator="atop"
-         in="result6"
-         in2="result5"
-         result="result8"
-         id="feComposite468" />
-      <feComposite
-         operator="in"
-         result="fbSourceGraphic"
-         in="result6"
-         in2="result8"
-         id="feComposite469" />
-      <feGaussianBlur
-         result="result0"
-         in="fbSourceGraphic"
-         stdDeviation="2.5"
-         id="feGaussianBlur469" />
-      <feSpecularLighting
-         specularExponent="45"
-         specularConstant="1.5"
-         surfaceScale="1"
-         lighting-color="rgb(255,255,255)"
-         result="result1"
-         in="result0"
-         id="feSpecularLighting469">
-        <fePointLight
-           z="21000"
-           y="-9000"
-           x="-6000"
-           id="fePointLight469" />
-      </feSpecularLighting>
-      <feComposite
-         operator="in"
-         result="result2"
-         in="result1"
-         in2="fbSourceGraphic"
-         id="feComposite470" />
-      <feComposite
-         k3="1"
-         k2="1"
-         operator="arithmetic"
-         result="result4"
-         in="fbSourceGraphic"
-         in2="result2"
-         id="feComposite471" />
-      <feComposite
-         operator="in"
-         in="result9"
-         in2="result4"
-         result="result91"
-         id="feComposite472" />
-      <feBlend
-         mode="multiply"
-         in2="result91"
-         id="feBlend472" />
-    </filter>
-    <filter
-       inkscape:menu-tooltip="Bright metallic effect for any color"
-       inkscape:menu="Bevels"
-       inkscape:label="Bright Metal"
-       style="color-interpolation-filters:sRGB;"
-       id="filter488"
-       x="-0.19048818"
-       y="-0.76195273"
-       width="1.3809764"
-       height="2.5239055">
-      <feGaussianBlur
-         result="result6"
-         stdDeviation="8"
-         in="SourceGraphic"
-         id="feGaussianBlur484" />
-      <feComposite
-         in2="SourceGraphic"
-         in="result6"
-         operator="xor"
-         result="result10"
-         id="feComposite484" />
-      <feGaussianBlur
-         result="result2"
-         stdDeviation="8"
-         id="feGaussianBlur485" />
-      <feComposite
-         in2="SourceGraphic"
-         operator="atop"
-         in="result10"
-         result="result91"
-         id="feComposite485" />
-      <feComposite
-         result="result4"
-         in="result2"
-         operator="xor"
-         in2="result91"
-         id="feComposite486" />
-      <feGaussianBlur
-         in="result4"
-         result="result3"
-         stdDeviation="4"
-         id="feGaussianBlur486" />
-      <feSpecularLighting
-         result="result5"
-         specularExponent="5"
-         specularConstant="1.1"
-         surfaceScale="18"
-         id="feSpecularLighting486">
-        <feDistantLight
-           azimuth="235"
-           elevation="55"
-           id="feDistantLight486" />
-      </feSpecularLighting>
-      <feComposite
-         in="result3"
-         k3="1.1"
-         k2="0.5"
-         operator="arithmetic"
-         result="result7"
-         in2="result5"
-         k1="0.5"
-         id="feComposite487" />
-      <feGaussianBlur
-         in="result7"
-         result="result8"
-         stdDeviation="1"
-         id="feGaussianBlur487" />
-      <feComposite
-         in="result8"
-         operator="atop"
-         in2="SourceGraphic"
-         result="result9"
-         id="feComposite488" />
-    </filter>
-    <filter
-       inkscape:label="Bloom"
-       inkscape:menu="Bevels"
-       inkscape:menu-tooltip="Soft, cushion-like bevel with matte highlights"
-       style="color-interpolation-filters:sRGB;"
-       id="filter507"
-       x="-0.1388441"
-       y="-0.9162355"
-       width="1.2776882"
-       height="2.832471">
-      <feGaussianBlur
-         result="result1"
-         in="SourceAlpha"
-         stdDeviation="0.0056989161"
-         id="feGaussianBlur505" />
-      <feSpecularLighting
-         result="result0"
-         specularExponent="18.1"
-         specularConstant="2"
-         surfaceScale="5"
-         id="feSpecularLighting505">
-        <feDistantLight
-           azimuth="225"
-           elevation="24"
-           id="feDistantLight505" />
-      </feSpecularLighting>
-      <feComposite
-         result="result6"
-         operator="in"
-         in2="SourceAlpha"
-         id="feComposite505" />
-      <feMorphology
-         radius="5.7"
-         operator="dilate"
-         id="feMorphology505" />
-      <feGaussianBlur
-         result="result11"
-         stdDeviation="5.7"
-         id="feGaussianBlur506" />
-      <feDiffuseLighting
-         surfaceScale="5"
-         result="result3"
-         diffuseConstant="2"
-         in="result1"
-         id="feDiffuseLighting506">
-        <feDistantLight
-           elevation="25"
-           azimuth="225"
-           id="feDistantLight506" />
-      </feDiffuseLighting>
-      <feBlend
-         result="result7"
-         mode="multiply"
-         in="result3"
-         in2="SourceGraphic"
-         id="feBlend506" />
-      <feComposite
-         in="result7"
-         operator="in"
-         in2="SourceAlpha"
-         result="result91"
-         id="feComposite506" />
-      <feBlend
-         result="result9"
-         mode="lighten"
-         in="result6"
-         in2="result91"
-         id="feBlend507" />
-      <feComposite
-         in="result11"
-         in2="result9"
-         id="feComposite507" />
-    </filter>
   </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:#787878;fill-opacity:1;stroke-width:0.357521"
+       style="fill:#787878;fill-opacity:1;stroke-width:1.35126"
        id="rect5"
-       width="264.58334"
-       height="66.145836"
+       width="1000"
+       height="250"
        x="0"
        y="0" />
     <g
        id="g235"
-       transform="matrix(1,0,0,1.0181176,-7.7209482e-8,-133.07308)">
+       transform="matrix(3.7795274,0,0,3.8480034,-2.9181535e-7,-502.95335)">
       <rect
          style="fill:#000000;fill-opacity:1;stroke-width:0.201687"
          id="rect5-3-1"
@@ -543,7 +245,7 @@
     </g>
     <g
        id="g234"
-       transform="translate(1.4227905e-6,-72.16908)">
+       transform="matrix(3.7795274,0,0,3.7795274,5.3774757e-6,-272.76502)">
       <rect
          style="fill:#000000;fill-opacity:1;stroke-width:0.161817"
          id="rect5-3"
@@ -551,6 +253,17 @@
          height="23.8125"
          x="13.229165"
          y="108.58458" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.2297px;font-family:'alarm clock';-inkscape-font-specification:'alarm clock, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;display:inline;fill:#00f821;fill-opacity:1;stroke-width:1.2815"
+         x="18.667751"
+         y="131.07416"
+         id="altiText-4"><tspan
+           sodipodi:role="line"
+           id="tspan234-44"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.2297px;font-family:'alarm clock';-inkscape-font-specification:'alarm clock, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00f821;fill-opacity:1;stroke-width:1.2815"
+           x="18.667751"
+           y="131.07416">       M</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.2297px;font-family:'alarm clock';-inkscape-font-specification:'alarm clock, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;display:inline;opacity:0.2;fill:#00f821;fill-opacity:1;stroke-width:1.2815"
@@ -570,13 +283,13 @@
          id="altiText"><tspan
            sodipodi:role="line"
            id="tspan234"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.2297px;font-family:'alarm clock';-inkscape-font-specification:'alarm clock, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00f821;fill-opacity:1;stroke-width:1.2815"
-           x="0"
-           y="0">888888 M</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.2297px;font-family:'alarm clock';-inkscape-font-specification:'alarm clock, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#00f821;fill-opacity:1;stroke-width:1.2815"
+           x="18.667751"
+           y="131.07416">888888</tspan></text>
     </g>
     <path
        id="altiNeedle"
-       style="fill:#ffffff;stroke-width:0.0349221"
-       d="m 13.229165,28.234496 c 0,-5.346415 0,-10.692852 0,-16.039267 0.515217,-1.843656 1.030435,-3.6873118 1.545652,-5.5309678 0.515217,1.843656 1.030435,3.6873118 1.545652,5.5309678 0,5.346415 0,10.692852 0,16.039267 -1.030435,0 -2.060869,0 -3.091304,0 z" />
+       style="fill:#ffffff;stroke-width:0.133764"
+       d="m 50,106.71329 c 0,-20.206918 0,-40.413924 0,-60.620846 2,-6.968148 4,-13.936296 6,-20.904444 2,6.968148 4,13.936296 6,20.904444 0,20.206922 0,40.413928 0,60.620846 -4,0 -8,0 -12,0 z" />
   </g>
 </svg>
