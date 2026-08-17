@@ -457,10 +457,10 @@
   let dispVal = "888888"
   let altitude = 0
   const animate = () => {
-    altitude += 1
-    if (altitude > 10000) {
-      altitude = 0
-    }
+    // altitude += 1
+    // if (altitude > 10000) {
+    //   altitude = 0
+    // }
 
     needleX = scale(altitude, [0,10000],[0,888])
     dispVal = altitude.toString().padStart(6, " ")
@@ -470,21 +470,21 @@
   }
   animate()
 
-  // const ws = new WebSocket("ws://localhost:3001")
+  const ws = new WebSocket("ws://localhost:3001")
 
-  // ws.onmessage = (event) => {
-  //   const msg = event.data.text()
-  //   ws.send(event)
-  // }
-  // ws.addEventListener("message", (event) => {
-  //   event.data.text().then((msg) => {
-  //     msg = msg.split(":")
-  //     if (msg[0] == "v") {
-  //       const velocity = parseInt(msg[1])
-  //       animate(velocity)
-  //     }
-  //   })
-  // })
+  ws.onmessage = (event) => {
+    const msg = event.data.text()
+    ws.send(event)
+  }
+  ws.addEventListener("message", (event) => {
+    event.data.text().then((msg) => {
+      msg = msg.split(":")
+      if (msg[0] == "a") {
+        altitude = parseInt(msg[1])
+        animate()
+      }
+    })
+  })
 
 </script>
 

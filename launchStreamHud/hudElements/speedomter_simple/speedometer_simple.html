@@ -468,12 +468,12 @@
   let velocity = 0
   const animate = () => {
 
-    velocity += 1
-    if (velocity > 10000) {
-      velocity = 0
-    }
+    // velocity += 1
+    // if (velocity > 10000) {
+    //   velocity = 0
+    // }
 
-    angle = scale(velocity, [0,9999],[-40,220]).toString()
+    angle = scale(velocity, [0,600],[-40,220]).toString()
     // dispVal = toString(velocity).padStart(4, " ")
     dispVal = velocity.toString().padStart(4, " ")
     disp.textContent = dispVal
@@ -483,21 +483,21 @@
   }
   animate()
 
-  // const ws = new WebSocket("ws://localhost:3001")
+  const ws = new WebSocket("ws://localhost:3001")
 
-  // ws.onmessage = (event) => {
-  //   const msg = event.data.text()
-  //   ws.send(event)
-  // }
-  // ws.addEventListener("message", (event) => {
-  //   event.data.text().then((msg) => {
-  //     msg = msg.split(":")
-  //     if (msg[0] == "v") {
-  //       const velocity = parseInt(msg[1])
-  //       animate(velocity)
-  //     }
-  //   })
-  // })
+  ws.onmessage = (event) => {
+    const msg = event.data.text()
+    ws.send(event)
+  }
+  ws.addEventListener("message", (event) => {
+    event.data.text().then((msg) => {
+      msg = msg.split(":")
+      if (msg[0] == "v") {
+        velocity = parseInt(msg[1])
+        animate(velocity)
+      }
+    })
+  })
 
 </script>
 
